@@ -169,27 +169,25 @@ form .form-control {
 }
 
 #portfolio p {
-	max-width: 1500px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 50px;
 }
 
 .portfolio-row {
-	display: flex;
+	max-width: 1000px;
 }
 
 .portfolio-row img {
-	width: 100%;
+	max-width: 300px;
 	padding: 10px;
 	border-radius: 20px;
 	border-color: #4d4d4d;
-	
 }
 
 .portfolio-row img:hover {
 	transform: translateY(-5px); / Elevar la tarjeta ligeramente /
-	box-shadow: 0 10px 25px rgba(0, 100, 50, 0.1); / Sombra más pronunciada */
 }
 
 /* About Me */
@@ -239,7 +237,7 @@ form .form-control {
 }
 
 #contact p {
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 50px;
