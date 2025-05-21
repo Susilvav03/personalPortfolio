@@ -183,6 +183,12 @@ form .form-control {
 	width: 100%;
 	padding: 10px;
 	border-radius: 20px;
+	border-color: #4d4d4d;
+}
+
+.portfolio-row img:hover {
+	transform: translateY(-5px); / Elevar la tarjeta ligeramente /
+	box-shadow: 0 10px 25px rgba(0, 100, 50, 0.1); / Sombra más pronunciada */
 }
 
 /* About Me */
