@@ -39,7 +39,7 @@ a {
 /* Utility Classes */
 .container {
 	margin: auto;
-	max-width: 1500px;
+	max-width: 1500;
 	overflow: auto;
 	padding: 0 20px;
 }
@@ -146,7 +146,7 @@ form .form-control {
 
 /* Showcase */
 #showcase {
-	padding: 25px 0;
+	padding: 25px 10px;
 }
 
 .showcase-row {
@@ -158,14 +158,18 @@ form .form-control {
 	padding-bottom: 20px;
 }
 
+#showcase img {
+	border-radius: 500px;
+}
+
 /* Portfolio */
 #portfolio {
-	padding: 10px 0;
+	padding: 50px 0;
 	text-align: center;
 }
 
 #portfolio p {
-	width: 1500px;
+	max-width: 1500px;
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 50px;
@@ -183,42 +187,44 @@ form .form-control {
 
 /* About Me */
 #aboutMe {
-	padding: 80px 0;
+	padding: 30px 0;
 	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 #aboutMe h2 {
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
 
 #aboutMe p {
-	padding-bottom: 20px;
+	padding-bottom: 4px;
 }
 
 /* Skills */
 .skills {
-  max-width: 68.75rem;
-  margin: auto;
-  text-align: center;
-  margin-top: 2.5rem;
+	max-width: 70rem;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .headerSkills {
-  margin-bottom: 1rem;
+    margin-bottom: 10px
 }
 
 .skillsContainer img {
-  padding: 1.25rem;
+    padding: 30px;
 }
 
 .icon {
-  width: 20rem;
+    width: 15rem;
 }
 
 
 /* Contact */
 #contact {
-	padding: 80px 0;
+	padding: 30px 0;
 }
 
 #contact h2 {
@@ -226,7 +232,7 @@ form .form-control {
 }
 
 #contact p {
-	width: 500px;
+	width: 1000px;
 	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 50px;
