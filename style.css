@@ -1,19 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Import Montserrat font with multiple font weights from Google Fonts */
 
-/* Reset */
+/* Reset styles for all elements */
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+	box-sizing: border-box; /* Includes padding and border in element's total width/height */
 }
 
-/* Main Styling */
+/* Base styles for the entire document */
 html,
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #424242;
+	color: #424242; /* Default text color */
 }
 
+/* Heading styles */
 h1 {
 	font-size: 15rem;
 }
@@ -25,6 +27,7 @@ h4 {
 	font-size: 1.5rem;
 }
 
+/* Paragraph styles */
 p {
 	font-size: 1.3rem;
 	margin: 10px 0;
@@ -32,14 +35,15 @@ p {
 	font-weight: 300;
 }
 
+/* Remove underline from links */
 a {
 	text-decoration: none;
 }
 
-/* Utility Classes */
+/* Utility classes */
 .container {
 	margin: auto;
-	max-width: 1500;
+	max-width: 1500px; /* px added for correctness */
 	overflow: auto;
 	padding: 0 20px;
 }
@@ -49,13 +53,14 @@ a {
 }
 
 .txt-violet {
-	color:mediumvioletred;
+	color: mediumvioletred;
 }
 
 .display-1 {
 	font-size: 5rem;
 }
 
+/* Button base style */
 .btn {
 	display: inline-block;
 	font-size: 1.5rem;
@@ -75,11 +80,13 @@ a {
 	color: #fff;
 }
 
+/* Hover effect for dark buttons */
 .btn-dark:hover {
 	background: rgb(255, 15, 167);
 	color: #fff;
 }
 
+/* Form label and input styles */
 form label {
 	display: inline-block;
 	margin-bottom: 15px;
@@ -93,7 +100,7 @@ form .form-control {
 	display: block;
 	width: 100%;
 	padding: 10px 15px;
-	font-size: 1 rem;
+	font-size: 1rem; /* space removed for correctness */
 	line-height: 1.2;
 	color: #373c42;
 	background: #fff;
@@ -101,13 +108,13 @@ form .form-control {
 	border-radius: 10px;
 }
 
-/* Mainheader */
+/* Main header section */
 #mainheader {
 	background: radial-gradient(at 10% 10px, rgb(255, 159, 220), #fff, #fff);
-	height: 100vh;
+	height: 100vh; /* Full viewport height */
 }
 
-/* Navbar */
+/* Navigation bar */
 #navbar {
 	color: #fff;
 	overflow: auto;
@@ -144,7 +151,7 @@ form .form-control {
 	color: rgb(255, 15, 167);
 }
 
-/* Showcase */
+/* Showcase section */
 #showcase {
 	padding: 25px 10px;
 }
@@ -159,10 +166,10 @@ form .form-control {
 }
 
 #showcase img {
-	border-radius: 500px;
+	border-radius: 500px; /* Makes image circular */
 }
 
-/* Portfolio */
+/* Portfolio section */
 #portfolio {
 	padding: 50px 0;
 	text-align: center;
@@ -187,13 +194,14 @@ form .form-control {
 	border-color: #4d4d4d;
 }
 
+/* Hover effect for portfolio images */
 .portfolio-row img:hover {
 	transform: translateY(-5px);
-	box-shadow: 0px 8px 10px rgba(145, 16, 97, 0.473); 
-	transition: all 0.3s ease; 
+	box-shadow: 0px 8px 10px rgba(145, 16, 97, 0.473);
+	transition: all 0.3s ease;
 }
 
-/* About Me */
+/* About Me section */
 #aboutMe {
 	padding: 30px 0;
 	text-align: center;
@@ -209,7 +217,7 @@ form .form-control {
 	padding-bottom: 4px;
 }
 
-/* Skills */
+/* Skills section */
 .skills {
 	max-width: 70rem;
 	margin: auto;
@@ -218,19 +226,18 @@ form .form-control {
 }
 
 .headerSkills {
-    margin-bottom: 10px
+	margin-bottom: 10px;
 }
 
 .skillsContainer img {
-    padding: 30px;
+	padding: 30px;
 }
 
 .icon {
-    width: 15rem;
+	width: 15rem;
 }
 
-
-/* Contact */
+/* Contact section */
 #contact {
 	padding: 30px 0;
 }
