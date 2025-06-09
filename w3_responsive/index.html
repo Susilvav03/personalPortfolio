@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <header class="header"><h1>Places I would like to visit</h1></header>
+    <aside class="sidebar">
+        <div class="sidebar__search">     
+            <h2>Add a Place</h2>
+        </div>
+        <section class="sidebar__section">
+            <form class="sidebar__form" action="#" method="post">
+                <div class="form__item">
+                    <label for="place">Place:</label>
+                    <input type="text" placeholder="Enter a place" name="place" id="place"/>
+                </div>
+                <div class="form__item">
+                    <label for="description">Description:</label>
+                    <textarea name="description" id="description" placeholder="Enter a description"></textarea>
+                </div>
+                <div class="form__item">
+                    <label for="image">Image:</label>
+                    <input type="file" accept="image/*" name="image" id="image"/>
+                </div>
+                <button class="form__button" type="submit">Add</button>
+            </form>
+        </section>
+    </aside>
+    <main class="main">
+        <article class="main__cards">
+            <img src="./assets/images/osaka.jpg" alt="" class="main__img">
+            <section class="main__text">
+                <h3>Osaka</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </section>
+        </article>
+        <article class="main__cards">
+            <img src="./assets/images/barcelona.jpg" alt="" class="main__img">
+            <section class="main__text">
+                <h3>Barcelona</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </section>
+        </article>
+        <article class="main__cards">
+            <img src="./assets/images/buenos_aires.jpg" alt="" class="main__img">
+            <section class="main__text">
+                <h3>Buenos Aires</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </section>
+        </article>
+        <article class="main__cards">
+            <img src="./assets/images/napoles.jpg" alt="" class="main__img">
+            <section class="main__text">
+                <h3>Nápoles</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </section>
+        </article>
+    </main>
+</body>
+</html>
